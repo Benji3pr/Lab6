@@ -21,7 +21,7 @@ public class BouncingBox extends JComponent {
 			f.draw(g); f.move();
 
 
-			if(f.getTrajectory() !=0 && f.getTrajectory() !=180){
+			if(f.getTrajectory() !=0 && f.getTrajectory() !=180 && f.getTrajectory() !=90 && f.getTrajectory() !=270){
 				if(f.getTrajectory()>180 && f.getTrajectory()<270){
 					if(f.leftBorderCollision() && f.lowerBorderCollision(this.getHeight())){
 						f.setTrajectory(f.getTrajectory()+(180));

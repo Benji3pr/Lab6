@@ -46,7 +46,7 @@ public class BouncingRectangle extends BouncingFigure {
 	}
 
 	public boolean lowerBorderCollision(int screenLimit){
-		if(getYTop()+this.height > screenLimit)
+		if(getYTop()+this.height >= screenLimit)
 			return true;
 		return false;
 	}
