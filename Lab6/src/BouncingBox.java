@@ -30,8 +30,7 @@ public class BouncingBox extends JComponent {
 						f.setTrajectory(f.getTrajectory()+(90));
 					}
 					else if(f.lowerBorderCollision(this.getHeight())){
-						f.setTrajectory(f.getTrajectory()-(90));
-					
+						f.setTrajectory(f.getTrajectory()-(90));					
 					}
 
 
